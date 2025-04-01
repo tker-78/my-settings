@@ -11,6 +11,7 @@
 - oh-my-posh
 - PostgreSQL
 - Vim
+- Power Toys
 
 
 ## WSLのインストール
@@ -78,3 +79,9 @@ $ . $PROFILE
 - Docker
 - PostgreSQL(Chris Kollman)
 - Tabnine
+
+
+
+## PowerToysの設定
+
+- キーマッピングの設定
