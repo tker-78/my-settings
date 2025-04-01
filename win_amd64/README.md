@@ -21,6 +21,11 @@ $ wsl --install
 ## Scoopのインストール
 Scoopのページを参照。
 
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
 ```ps
 scoop install sudo
 sudo scoop install 7zip git openssh --global
