@@ -37,6 +37,7 @@ scoop install vim
 
 ## oh-my-poshのインストール
 ```ps
+$ winget install JanDeDobbeleer.OhMyPosh -s winget
 $ scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
 ```
 一度再起動する。
