@@ -9,6 +9,7 @@
 - WSL
 - scoop
 - oh-my-posh
+- PostgreSQL
 
 
 ## WSLのインストール
