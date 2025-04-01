@@ -10,6 +10,7 @@
 - scoop
 - oh-my-posh
 - PostgreSQL
+- Vim
 
 
 ## WSLのインストール
@@ -31,6 +32,7 @@ scoop install sudo
 sudo scoop install 7zip git openssh --global
 scoop install aria2 curl grep sed less touch
 scoop install python ruby go perl
+scoop install vim
 ```
 
 ## oh-my-poshのインストール
