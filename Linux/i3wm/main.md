@@ -127,6 +127,29 @@ exec $HOME/Applications/Obsidian.<version>.AppImage --no-sandbox "$@"
 ```
 
 
+### Wifi
+
+```bash
+sudo vim /etc/netplan/50-cloud-init.yaml
+```
+
+```
+network:
+  version: 2
+  renderer: NetworkManager
+  # 以下はコメントアウト
+```
+
+```bash
+sudo netplan apply
+```
+
+**起動時に時間のかかるjobが発生したら対処する。**
+
+```bash
+sudo systemctl disable systemd-networkd-wait-online.service
+```
+
 
 
 
